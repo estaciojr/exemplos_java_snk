@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<HttpServiceBroker authenticator="br.com.sankhya.dwf.services.DefaultAuthenticator">
+	<providers>
+			<provider
+			type="ejb-stateless" 
+			domain="MovAutomaticosSP" 
+			class="br.com.sankhya.movautomaticos.services.MovAutomaticosSPBean"
+			jndi="br/com/sankhya/movautomaticos/services/MovAutomaticosSP"
+			authentication="true" />
+	</providers>
+</HttpServiceBroker>

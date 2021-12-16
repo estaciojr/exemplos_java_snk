@@ -1,0 +1,11 @@
+<sk-top-bar >
+        <sk-simple-form sk-columns="1" flex layout-bottom-padding>
+                <sk-simple-group sk-label="Selecione o arquivo" sk-required="true">
+                           
+                        <sk-simple-item sk-required="true" sk-label="Upload automático após seleção">
+                                <sk-file-input sk-file-key="{{ ::ctrlDois.chaveArquivo }}" sk-upload-state="ctrlDois.uploadFineshed($state, $value)" sk-before-upload="ctrlDois.beforeState()"></sk-file-input>
+                            </sk-simple-item>
+        
+                    </sk-simple-group>
+            </sk-simple-form>
+    </sk-top-bar>

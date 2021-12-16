@@ -1,0 +1,11 @@
+{
+  "locale": "en_US",
+  "namespace": "Core.DynaformLauncher",
+  "context": "mge",
+  "i18nDictionary": [],
+  "i18nBundles": [],
+  "i18n": {
+    "erroParamResourceId": "Internal error: The parameter \u0027resourceID\u0027 is required to load a Dynaform.",
+    "erroEntityNaoDef": "Internal error: Entity not defined!"
+  }
+}

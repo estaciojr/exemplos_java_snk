@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<extension>
+  <id>MovAutomaticos_2.9s</id>
+  <description>MovAutomaticos</description>
+  <version>2.9s</version>
+  <platform-min-version>3.30</platform-min-version>
+  <build-timestamp>27/04/2021 11:05:07</build-timestamp>
+  <vendor>
+    <id>12085</id>
+    <name>SankhyaEspiritoSanto</name>
+  </vendor>
+  <license-by-resource>
+    <default-module />
+  </license-by-resource>
+  <ui-mashups />
+  <signature>0d16d904253d73da9b5d526859952437</signature>
+</extension>
+

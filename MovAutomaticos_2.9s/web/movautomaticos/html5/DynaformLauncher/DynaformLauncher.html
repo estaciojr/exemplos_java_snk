@@ -1,0 +1,12 @@
+<sk-application ng-controller="DynaformLauncherCtrl as ctrl" layout="column" flex>
+   
+    <sk-dynaform sk-id="ctrl.dynaformID" 
+    sk-skip-start-page="true" 
+    sk-entity-name="{{ ctrl.getEntityName() }}"
+    sk-resource-id="{{ ctrl.getResourceId() }}"
+    sk-on-dynaform-loaded="ctrl.onDynaformLoaded(dynaform, dataset)"
+    sk-can-back-to-old-layout="true" 
+    sk-other-options-loader="ctrl.otherOptionsLoader()"
+    layout="column" flex>
+</sk-dynaform> 
+</sk-application>

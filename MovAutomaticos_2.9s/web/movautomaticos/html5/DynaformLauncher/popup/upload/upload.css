@@ -1,0 +1,34 @@
+.resumo-container {
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+sk-list > *, .sk-list > * {
+	border: none !important;
+}
+
+.variavel-text-area textarea.form-control.text-area-height {
+	height: 80px !important;
+	min-height: 50px !important;
+	max-height: 100px !important;
+}
+
+.caixa-texto {
+    width: 100%;
+	height: 80px !important;
+	min-height: 50px !important;
+	max-height: 100px !important;
+}
+
+.label-result-contrato {
+   color:#5a5a5a;
+   font-size: 12px;
+   line-height: 20px;
+
+}
+
+.aplicar {
+	float: right;
+}

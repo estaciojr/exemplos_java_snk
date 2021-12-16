@@ -1,0 +1,8 @@
+[ng-app="MovAutomaticosApp"] body {
+    overflow: hidden;
+}
+
+.consulta-l-i .modo-automatico .actions-container .action-item {
+    width: 100%;
+    margin-bottom: 0px;
+}

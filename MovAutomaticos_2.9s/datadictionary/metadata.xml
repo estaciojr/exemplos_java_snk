@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <tables>
+    <table name="MOVAUP" sequenceType="M">
+      <description><![CDATA[MovAutomaticoConf]]></description>
+    </table>
+    <table name="MOVAGE" sequenceType="M">
+      <description><![CDATA[MovAutGerados]]></description>
+    </table>
+    <table name="MOVACB" sequenceType="A" sequenceField="IDMOV">
+      <description><![CDATA[MovAutomaticos]]></description>
+    </table>
+    <table name="MOVAIT" sequenceType="A" sequenceField="ORDEM">
+      <description><![CDATA[Mov. Aut. Itens]]></description>
+    </table>
+  </tables>
+  <fields>
+    <field name="SERIENOTA" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="S" visibleOnSearch="N" isPresentation="S" order="0">
+      <description><![CDATA[Serie Nota]]></description>
+    </field>
+    <field name="IDMOV" table="MOVAIT" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Identificador]]></description>
+    </field>
+    <field name="CODTIPOPER" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Tipo de Operação]]></description>
+    </field>
+    <field name="CODTIPVENDA" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Tipo Venda]]></description>
+    </field>
+    <field name="CODNAT" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Natureza]]></description>
+    </field>
+    <field name="CODCENCUS" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Centro de Resultado]]></description>
+    </field>
+    <field name="CODEMP" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Empresa]]></description>
+    </field>
+    <field name="CODLOCAL" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Local]]></description>
+    </field>
+    <field name="CODPARC" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Parceiro]]></description>
+    </field>
+    <field name="ORDEM" table="MOVAIT" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Ordem]]></description>
+    </field>
+    <field name="ATIVO" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Ativo]]></description>
+    </field>
+    <field name="EXPRESSAO" table="MOVACB" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Expressão]]></description>
+    </field>
+    <field name="CODINSTFILHA" table="MOVACB" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Filtro Itens]]></description>
+    </field>
+    <field name="TRANSIENTFILTER" table="MOVACB" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Objeto Transient]]></description>
+    </field>
+    <field name="VLRUNIT" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Vlr. Unitário]]></description>
+    </field>
+    <field name="INSTANCIA" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Instancia]]></description>
+    </field>
+    <field name="FILTRO" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Filtro]]></description>
+    </field>
+    <field name="ATIVO" table="MOVACB" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Ativo]]></description>
+    </field>
+    <field name="CONDICAO" table="MOVACB" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Condição]]></description>
+    </field>
+    <field name="INSTANCIA" table="MOVACB" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Instância]]></description>
+    </field>
+    <field name="IDMOV" table="MOVAGE" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Id. Movimento]]></description>
+    </field>
+    <field name="CONTROLE" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Controle]]></description>
+    </field>
+    <field name="ENTITYNAME" table="MOVAGE" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Entity Name]]></description>
+    </field>
+    <field name="CODINST" table="MOVACB" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Condição Disparo]]></description>
+    </field>
+    <field name="PKQUERY" table="MOVAGE" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Pk Query]]></description>
+    </field>
+    <field name="SEQUENCIA" table="MOVAGE" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Sequencia]]></description>
+    </field>
+    <field name="NUNOTA" table="MOVAGE" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Nro. Único Nota]]></description>
+    </field>
+    <field name="NUNOTAFAT" table="MOVAGE" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Nro. Único Faturado]]></description>
+    </field>
+    <field name="DESCRPROC" table="MOVACB" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Descrição processo]]></description>
+    </field>
+    <field name="PROCEDUREFINAL" table="MOVACB" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Procedure Final]]></description>
+    </field>
+    <field name="OBSERVACAO" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Observação]]></description>
+    </field>
+    <field name="VLRDESC" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Vlr. Desconto]]></description>
+    </field>
+    <field name="RESOURCEID" table="MOVAUP" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[ResourceID]]></description>
+    </field>
+    <field name="EXPRESSAO" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Expressão]]></description>
+    </field>
+    <field name="TRANSIENTFILTER" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Filtro Transient]]></description>
+    </field>
+    <field name="TIPO" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Tipo]]></description>
+    </field>
+    <field name="CODLOCALDEST" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Local Destino]]></description>
+    </field>
+    <field name="CODEMPNEGOC" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Empresa Negociação]]></description>
+    </field>
+    <field name="COPYADDFIELDS" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Copiar Campos Adicionais]]></description>
+    </field>
+    <field name="NAOCONFIRMAFAT" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Não confirmar após faturamento]]></description>
+    </field>
+    <field name="FORCAFATURANDO" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Força como Faturando (Marcar somente em P para P )]]></description>
+    </field>
+    <field name="IDMOV" table="MOVACB" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Identificador]]></description>
+    </field>
+    <field name="CODPROD" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Produto]]></description>
+    </field>
+    <field name="FAT" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Fatura]]></description>
+    </field>
+    <field name="TIPO" table="MOVAUP" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Tipo]]></description>
+    </field>
+    <field name="PROCEDURELINHA" table="MOVAUP" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Procedure Linha]]></description>
+    </field>
+    <field name="PROCEDUREFINAL" table="MOVAUP" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Procedure Final]]></description>
+    </field>
+    <field name="EVENTOANT" table="MOVAUP" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Evento Anterior]]></description>
+    </field>
+    <field name="CODINSTFILHA" table="MOVAIT" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Filtro Itens]]></description>
+    </field>
+    <field name="QTDNEG" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Quantidade]]></description>
+    </field>
+    <field name="USAPRECOTOP" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Utiliza Preço\Custo da TOP]]></description>
+    </field>
+    <field name="NAOCONFIRMA" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Não confirmar]]></description>
+    </field>
+    <field name="CODEMP_ITE" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Empresa Item]]></description>
+    </field>
+    <field name="SEQUENCIA" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Sequencia]]></description>
+    </field>
+    <field name="DIASRETCUSTO" table="MOVAIT" dataType="I" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Dias retroceder]]></description>
+    </field>
+    <field name="CODEMP_CUS" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Empresa Custo]]></description>
+    </field>
+    <field name="COPYADDFIELDSCAB" table="MOVAIT" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Copiar Campos Adicionais]]></description>
+    </field>
+    <field name="FORCARETIRADESC" table="TGFTOP" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Força Retirada Desconto]]></description>
+    </field>
+    <field name="FORCALIB" table="TGFTOP" dataType="S" presentationType="P" calculated="N" allowSearch="N" allowDefault="N" visibleOnSearch="N" isPresentation="N" order="0">
+      <description><![CDATA[Forçar Liberação]]></description>
+    </field>
+  </fields>
+  <fieldProperties>
+    <prop table="MOVAIT" field="SERIENOTA" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="SERIENOTA" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="IDMOV" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODTIPOPER" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CODTIPOPER" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODTIPOPER" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="CODTIPVENDA" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CODTIPVENDA" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODTIPVENDA" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="CODNAT" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODNAT" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="CODNAT" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CODCENCUS" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODCENCUS" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="CODCENCUS" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CODEMP" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODEMP" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="CODEMP" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CODLOCAL" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODLOCAL" name="UIGroupName"><![CDATA[Itens Movimento]]></prop>
+    <prop table="MOVAIT" field="CODLOCAL" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CODPARC" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CODPARC" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="CODPARC" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="ORDEM" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="ATIVO" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVACB" field="EXPRESSAO" name="visivel"><![CDATA[N]]></prop>
+    <prop table="MOVACB" field="EXPRESSAO" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVACB" field="EXPRESSAO" name="readOnly"><![CDATA[S]]></prop>
+    <prop table="MOVACB" field="CODINSTFILHA" name="visivel"><![CDATA[N]]></prop>
+    <prop table="MOVACB" field="CODINSTFILHA" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVACB" field="TRANSIENTFILTER" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVACB" field="TRANSIENTFILTER" name="visivel"><![CDATA[N]]></prop>
+    <prop table="MOVAIT" field="VLRUNIT" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="INSTANCIA" name="readOnly"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="INSTANCIA" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="FILTRO" name="visivel"><![CDATA[N]]></prop>
+    <prop table="MOVACB" field="ATIVO" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVACB" field="CONDICAO" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVACB" field="CONDICAO" name="readOnly"><![CDATA[S]]></prop>
+    <prop table="MOVACB" field="CONDICAO" name="visivel"><![CDATA[N]]></prop>
+    <prop table="MOVACB" field="INSTANCIA" name="readOnly"><![CDATA[S]]></prop>
+    <prop table="MOVACB" field="INSTANCIA" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CONTROLE" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CONTROLE" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CONTROLE" name="UIGroupName"><![CDATA[Itens Movimento]]></prop>
+    <prop table="MOVACB" field="CODINST" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVACB" field="DESCRPROC" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVACB" field="PROCEDUREFINAL" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="OBSERVACAO" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="OBSERVACAO" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="VLRDESC" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="EXPRESSAO" name="visivel"><![CDATA[N]]></prop>
+    <prop table="MOVAIT" field="TRANSIENTFILTER" name="visivel"><![CDATA[N]]></prop>
+    <prop table="MOVAIT" field="TIPO" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODLOCALDEST" name="UIGroupName"><![CDATA[Itens Movimento]]></prop>
+    <prop table="MOVAIT" field="CODLOCALDEST" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODEMPNEGOC" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="CODEMPNEGOC" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="COPYADDFIELDS" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="COPYADDFIELDS" name="UIGroupName"><![CDATA[Itens Movimento]]></prop>
+    <prop table="MOVAIT" field="NAOCONFIRMAFAT" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="FORCAFATURANDO" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODPROD" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODPROD" name="UIGroupName"><![CDATA[Itens Movimento]]></prop>
+    <prop table="MOVAIT" field="CODPROD" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="FAT" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAUP" field="PROCEDURELINHA" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAUP" field="PROCEDUREFINAL" name="visivel"><![CDATA[N]]></prop>
+    <prop table="MOVAUP" field="EVENTOANT" name="readOnly"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="CODINSTFILHA" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODINSTFILHA" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="QTDNEG" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="QTDNEG" name="requerido"><![CDATA[S]]></prop>
+    <prop table="MOVAIT" field="QTDNEG" name="UIGroupName"><![CDATA[Itens Movimento]]></prop>
+    <prop table="MOVAIT" field="USAPRECOTOP" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="NAOCONFIRMA" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODEMP_ITE" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="CODEMP_ITE" name="UIGroupName"><![CDATA[Itens Movimento]]></prop>
+    <prop table="MOVAIT" field="SEQUENCIA" name="UIGroupName"><![CDATA[Itens Movimento]]></prop>
+    <prop table="MOVAIT" field="SEQUENCIA" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="DIASRETCUSTO" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="MOVAIT" field="COPYADDFIELDSCAB" name="UIGroupName"><![CDATA[Cabeçalho Movimento]]></prop>
+    <prop table="MOVAIT" field="COPYADDFIELDSCAB" name="UITabName"><![CDATA[__main]]></prop>
+    <prop table="TGFTOP" field="FORCARETIRADESC" name="UITabName"><![CDATA[Mov. Automáticos]]></prop>
+    <prop table="TGFTOP" field="FORCARETIRADESC" name="UIGroupName"><![CDATA[Desconto]]></prop>
+    <prop table="TGFTOP" field="FORCALIB" name="UIGroupName"><![CDATA[Liberações]]></prop>
+    <prop table="TGFTOP" field="FORCALIB" name="UITabName"><![CDATA[Mov. Automáticos]]></prop>
+  </fieldProperties>
+  <fieldOptions>
+    <option table="MOVAIT" field="USAPRECOTOP" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVAIT" field="USAPRECOTOP" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="NAOCONFIRMA" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVAIT" field="NAOCONFIRMA" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="COPYADDFIELDS" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVAIT" field="COPYADDFIELDS" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="COPYADDFIELDSCAB" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVAIT" field="COPYADDFIELDSCAB" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="TIPO" value="AG"><![CDATA[Agendado]]></option>
+    <option table="TGFTOP" field="FORCARETIRADESC" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVAIT" field="TIPO" value="AT"><![CDATA[Confirmação Nota]]></option>
+    <option table="MOVAIT" field="FAT" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVAIT" field="FAT" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="ATIVO" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="ATIVO" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVACB" field="ATIVO" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVACB" field="ATIVO" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAUP" field="TIPO" value="U"><![CDATA[Importador Arquivo]]></option>
+    <option table="MOVAIT" field="TIPO" value="MA"><![CDATA[Manual]]></option>
+    <option table="TGFTOP" field="FORCARETIRADESC" value="N"><![CDATA[Não]]></option>
+    <option table="TGFTOP" field="FORCALIB" value="S"><![CDATA[Sim]]></option>
+    <option table="TGFTOP" field="FORCALIB" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="FORCAFATURANDO" value="S"><![CDATA[Sim]]></option>
+    <option table="MOVAIT" field="FORCAFATURANDO" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="NAOCONFIRMAFAT" value="N"><![CDATA[Não]]></option>
+    <option table="MOVAIT" field="NAOCONFIRMAFAT" value="S"><![CDATA[Sim]]></option>
+  </fieldOptions>
+  <instances>
+    <instance name="MovAutomaticos" tableName="MOVACB">
+      <description><![CDATA[Mov. Automáticos]]></description>
+    </instance>
+    <instance name="DynaformModify" tableName="MOVAUP">
+      <description><![CDATA[Formulário Dinâmico]]></description>
+    </instance>
+    <instance name="ItensMovAut" tableName="MOVAIT">
+      <description><![CDATA[Itens Mov. Automáticos]]></description>
+    </instance>
+    <instance name="MovAutGerados" tableName="MOVAGE">
+      <description><![CDATA[Mov. Aut. Gerados]]></description>
+    </instance>
+  </instances>
+  <relationShip>
+    <relation fromEntity="MovAutomaticos" toEntity="ItensMovAut" type="I" insert="N" update="N" remove="N">
+      <fields>
+        <field localName="IDMOV" targetName="IDMOV" />
+      </fields>
+    </relation>
+    <relation fromEntity="ItensMovAut" toEntity="MovAutomaticos" type="I" insert="N" update="N" remove="N">
+      <fields>
+        <field localName="IDMOV" targetName="IDMOV" />
+      </fields>
+    </relation>
+    <relation fromEntity="MovAutomaticos" toEntity="InstanciaCadastro" type="I" insert="N" update="N" remove="N">
+      <expression><![CDATA[@form-filter[this.NUINSTANCIA IN (SELECT L.NUINSTORIG FROM TDDLIG L WHERE L.NUINSTDEST=form.@CODINST)]]]></expression>
+      <fields>
+        <field localName="CODINSTFILHA" targetName="NUINSTANCIA" />
+      </fields>
+    </relation>
+    <relation fromEntity="MovAutomaticos" toEntity="Instancia" type="I" insert="N" update="N" remove="N">
+      <fields>
+        <field localName="CODINST" targetName="NUINSTANCIA" />
+      </fields>
+    </relation>
+    <relation fromEntity="ItensMovAut" toEntity="Instancia" type="I" insert="N" update="N" remove="N">
+      <expression><![CDATA[@form-filter[this.NUINSTANCIA IN (SELECT L.NUINSTORIG FROM TDDLIG L WHERE L.NUINSTDEST in (select cab.codinst from movacb cab where  cab.idmov=form.@IDMOV))]]]></expression>
+      <fields>
+        <field localName="CODINSTFILHA" targetName="NUINSTANCIA" />
+      </fields>
+    </relation>
+  </relationShip>
+  <controls>
+    <control name="br.com.sankhya.itout.movautomaticos" type="FB" childrenType="PL">
+      <description><![CDATA[Automações]]></description>
+      <url />
+      <properties>
+        <icon-info><![CDATA[/movautomaticos/img/iconMovAut.png]]></icon-info>
+      </properties>
+    </control>
+    <control name="br.com.sankhya.movautomaticos" type="DS" childrenType="PL">
+      <description><![CDATA[FrameBuilder - Mov Automaticos]]></description>
+      <url />
+      <properties />
+    </control>
+    <control name="br.com.sankhya.itout.movautomaticosd" type="MN" childrenType="PL">
+      <description><![CDATA[Mov. Automáticos]]></description>
+      <url><![CDATA[/movautomaticos/MovAutomaticos.xhtml5?mgeSession=${mge.session.id}&resourceID=${resourceID}]]></url>
+      <properties>
+        <resourceID><![CDATA[br.com.sankhya.itout.movautomaticosd]]></resourceID>
+        <entityName><![CDATA[MovAutomaticos]]></entityName>
+        <contexto><![CDATA[mge]]></contexto>
+      </properties>
+    </control>
+    <control name="br.com.sankhya.itout.movautomaticos.cadastros" type="MN" childrenType="PL">
+      <description><![CDATA[Cadastros]]></description>
+      <url />
+      <properties />
+    </control>
+    <control name="br.com.sankhya.BotõesTelasAdicionais" type="MN" childrenType="PL">
+      <description><![CDATA[Botões Telas Adicionais]]></description>
+      <url><![CDATA[${dynaform:DynaformModify}]]></url>
+      <properties>
+        <resourceID><![CDATA[br.com.sankhya.movautomaticas.dynaformmodify]]></resourceID>
+        <entityName><![CDATA[DynaformModify]]></entityName>
+        <contexto><![CDATA[mge]]></contexto>
+      </properties>
+    </control>
+    <control name="br.com.sankhya.Mov.AutomáticosDynaform" type="MN" childrenType="PL">
+      <description><![CDATA[Mov. Automáticos Dynaform]]></description>
+      <url><![CDATA[${dynaform:MovAutomaticos}]]></url>
+      <properties>
+        <resourceID />
+        <entityName />
+        <contexto><![CDATA[mge]]></contexto>
+      </properties>
+    </control>
+  </controls>
+  <controlRelations>
+    <ctrlRelationship fromCtrl="br.com.sankhya.itout.movautomaticos.cadastros" toCtrl="br.com.sankhya.BotõesTelasAdicionais" />
+    <ctrlRelationship fromCtrl="br.com.sankhya.itout.movautomaticos.cadastros" toCtrl="br.com.sankhya.itout.movautomaticosd" />
+    <ctrlRelationship fromCtrl="br.com.sankhya.movautomaticos" toCtrl="br.com.sankhya.itout.movautomaticos" />
+    <ctrlRelationship fromCtrl="br.com.sankhya.itout.movautomaticos" toCtrl="br.com.sankhya.itout.movautomaticos.cadastros" />
+  </controlRelations>
+</metadata>
+
